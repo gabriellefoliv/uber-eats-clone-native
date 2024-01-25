@@ -1,14 +1,14 @@
 import { View, Text, Image } from 'react-native'
 import React from 'react'
 
-const yelpRestaurantInfo = {
-  name: "Farmhouse Kitchen Thai Cuisine",
-  image: "https://media2.fdncms.com/eastbayexpress/imager/u/slideshow/21140647/food-bcba1d047dfdf75f.jpg",
-  price: "$$",
-  reviews: '1500',
-  rating: 5,
-  categories: [{title: "Thai"}, {title: "Comfort food"}],
-};
+// const yelpRestaurantInfo = {
+//   name: "Farmhouse Kitchen Thai Cuisine",
+//   image: "https://media2.fdncms.com/eastbayexpress/imager/u/slideshow/21140647/food-bcba1d047dfdf75f.jpg",
+//   price: "$$",
+//   reviews: '1500',
+//   rating: 5,
+//   categories: [{title: "Thai"}, {title: "Comfort food"}],
+// };
 
 
 export default function About(props) {

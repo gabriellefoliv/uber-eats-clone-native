@@ -1,9 +1,19 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 import { TouchableOpacity } from 'react-native-gesture-handler'
+import { useSelector } from 'react-redux'
 
 export default function ViewCart() {
+  const items = useSelector((state) => state.cartReducer.selectedItems.items);
+  const total = items.map((item => Number(item.price.replace('$', '')))).reduce((prev, curr) => prev + curr, 0);
+  const totalUSD = total.toLocaleString('en', {
+    style: 'currency',
+    currency: "USD",
+  });
+
   return (
+    <>
+    
     <View 
       style={{
         flex: 1, 
@@ -11,7 +21,7 @@ export default function ViewCart() {
         justifyContent: "center", 
         flexDirection: "row", 
         position: "absolute", 
-        bottom: 90, 
+        bottom: 130, 
         zIndex: 999,
       }}
     >
@@ -33,9 +43,10 @@ export default function ViewCart() {
                 position: 'relative'
               }}
             >
-                <Text style={{color: 'white', fontSize: 20}}>ViewCart</Text>
+                <Text style={{color: 'white', fontSize: 20}}>View Cart</Text>
             </TouchableOpacity>
         </View>
     </View>
+    </>
   )
 }

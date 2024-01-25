@@ -8,8 +8,8 @@ export default function RestaurantDetail({ route, navigation }) {
   return (
     <View>
         <About route={route}/>
-        <MenuItems />
-        <ViewCart/>
+        <MenuItems restaurantName={route.params.name}/>
+        <ViewCart navigation={navigation} restaurantName={route.params.name}/>
     </View>
   )
 }
