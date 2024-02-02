@@ -13,15 +13,15 @@
 - E, por fim, as Tabs debaixo que no momento só são clicáveis.
 
 <div display="flex" align="center">
-    <img src="/design/EHome.png" width="400"/>
-    <img src="/design/EPesquisa.png" width="400"/>
+    <img src="/design/EHome.png" width="300"/>
+    <img src="/design/EPesquisa.png" width="300"/>
 </div>
 
 <br>
 
 <div display="flex" align="center">
-    <img src="/design/ELosAngeles.png" width="400"/>
-    <img src="/design/EHollywood.png" width="400"/>
+    <img src="/design/ELosAngeles.png" width="300"/>
+    <img src="/design/EHollywood.png" width="300"/>
 </div>
 
 ## Página RestaurantDetails
@@ -30,8 +30,8 @@
 - As atualizações futuras incluem esse funcionamento e o desenvolvimento do carrinho de compras.
 
 <div display="flex" align="center" >
-    <img src="/design/EHollyAbout.png" width="400"/>
-    <img src="/design/EAboutSelected.png" width="400"/>
+    <img src="/design/EHollyAbout.png" width="300"/>
+    <img src="/design/EAboutSelected.png" width="300"/>
 </div>
 
 ## Futuras atualizações
