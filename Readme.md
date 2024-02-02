@@ -12,8 +12,8 @@
 - Os restaurantes que serão captados da barra;
 - E, por fim, as Tabs debaixo que no momento só são clicáveis.
 
-<div display="flex" align="center" width="500px">
-    <img src="/design/EHome.png"/>
+<div display="flex" align="center">
+    <img src="/design/EHome.png" width="200"/>
     <img src="/design/EPesquisa.png"/>
 </div>
 
