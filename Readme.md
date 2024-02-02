@@ -13,13 +13,15 @@
 - E, por fim, as Tabs debaixo que no momento só são clicáveis.
 
 <div display="flex" align="center">
-    <img src="/design/EHome.png" width="200"/>
-    <img src="/design/EPesquisa.png"/>
+    <img src="/design/EHome.png" width="400"/>
+    <img src="/design/EPesquisa.png" width="400"/>
 </div>
 
+<br>
+
 <div display="flex" align="center">
-    <img src="/design/ELosAngeles.png"/>
-    <img src="/design/EHollywood.png"/>
+    <img src="/design/ELosAngeles.png" width="400"/>
+    <img src="/design/EHollywood.png" width="400"/>
 </div>
 
 ## Página RestaurantDetails
@@ -27,9 +29,9 @@
 - Agora, é possível selecionar os alimentos que deseja adquirir, portanto ainda não está puxando da API;
 - As atualizações futuras incluem esse funcionamento e o desenvolvimento do carrinho de compras.
 
-<div display="flex" align="center">
-    <img src="/design/EHollyAbout.png"/>
-    <img src="/design/EAboutSelected.png"/>
+<div display="flex" align="center" >
+    <img src="/design/EHollyAbout.png" width="400"/>
+    <img src="/design/EAboutSelected.png" width="400"/>
 </div>
 
 ## Futuras atualizações
