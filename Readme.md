@@ -12,7 +12,7 @@
 - Os restaurantes que serão captados da barra;
 - E, por fim, as Tabs debaixo que no momento só são clicáveis.
 
-<div display="flex" align="center">
+<div display="flex" align="center" width="500px">
     <img src="/design/EHome.png"/>
     <img src="/design/EPesquisa.png"/>
 </div>
@@ -31,3 +31,6 @@
     <img src="/design/EHollyAbout.png"/>
     <img src="/design/EAboutSelected.png"/>
 </div>
+
+## Futuras atualizações
+- Trabalhar com Redux e Firebase para criar carrinho de compras e armazenar essas informações de compra com o banco de dados.
