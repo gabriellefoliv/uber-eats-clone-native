@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet, Image, ScrollView } from 'react-native'
 import React from 'react'
 import BouncyCheckbox from 'react-native-bouncy-checkbox';
-import { useDispatch } from 'react-redux'; 
+// import { useDispatch } from 'react-redux'; 
 
 const foods = [
     {
@@ -62,10 +62,10 @@ const styles = StyleSheet.create({
 
 export default function MenuItems({restaurantName}) {
 
-    const dispatch = useDispatch();
+    // const dispatch = useDispatch();
 
     const selectItem = (item, checkboxValue) => 
-        dispatch({
+        ({
             type: 'ADD_TO_CART', 
             payload: {...item, restaurantName: restaurantName, checkboxValue: checkboxValue}
         });
